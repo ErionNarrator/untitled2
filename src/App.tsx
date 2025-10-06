@@ -4,6 +4,10 @@ import fff from '../src/assets/1IMAGE.svg'
 import ffff from '../src/assets/IMA1111111GE.svg'
 import wave from '../src/assets/IM121AGE.svg'
 import  artist from '../src/assets/Frame.svg'
+import logoholder from '../src/assets/Fram21121222e.svg'
+import Bigboms from '../src/assets/Bigboms.svg'
+import TEAM from '../src/assets/TEAM.svg'
+import lox from '../src/assets/LOX.png'
 import './App.css'
 
 function App() {
@@ -175,6 +179,141 @@ function App() {
                 <section className="w-full flex justify-center items-center gap-80 pt-9 pb-9">
                     <img src={ffff} alt="" className="w-full"/>
                 </section>
+
+
+
+                <section className="w-8/10 flex flex-col  justify-center items-start pt-9 pb-10">
+                    <img src={logoholder} alt="" className="w-full"/>
+                </section>
+
+
+                <section className="w-full flex justify-center items-center gap-80">
+
+                    <div className="">
+
+                        <h2 className="text-amber-50 text-6xl">Frequently</h2>
+
+                        <h2 className="text-gray-600 text-6xl">asked</h2>
+                        <h2 className="text-amber-50 text-6xl">questions</h2>
+                        <img src={wave} alt=""/>
+
+                    </div>
+
+                    <div className="w-2/5 flex flex-col  justify-center items-start gap-20">
+
+                        <img src={Bigboms} alt=""/>
+                    </div>
+
+                </section>
+
+                <section className="w-full flex justify-center items-center gap-80 pt-9 pb-9">
+                    <img src={TEAM} alt="" className="w-full"/>
+                </section>
+
+
+                <section className="w-full flex justify-center items-center gap-80 pt-9 pb-9">
+
+                    <div className="flex justify-center items-center gap-80">
+                        <div className="flex flex-col  justify-center items-center w-70 text-center gap-2">
+                            <img src={lox} alt="" className="w-64 h-64 object-cover rounded-lg shadow-md "/>
+                                <p>Fast Lox</p>
+                                <p className="text-lime-600">Founder</p>
+                                    <div className="flex items-center ">
+                                        <img src={x} alt=""/>
+                                        <img src={x} alt=""/>
+                                    </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+
+                        </div>
+
+
+                        <div className="flex flex-col  justify-center items-center w-70 text-center gap-2">
+                            <img src={lox} alt="" className="w-64 h-64 object-cover rounded-lg shadow-md "/>
+                            <p>Fast Lox</p>
+                            <p className="text-lime-600">Founder</p>
+                            <div className="flex items-center ">
+                                <img src={x} alt=""/>
+                                <img src={x} alt=""/>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+
+                        </div>
+
+
+                        <div className="flex flex-col  justify-center items-center w-70 text-center gap-2">
+                            <img src={lox} alt="" className="w-64 h-64 object-cover rounded-lg shadow-md "/>
+                            <p>Fast Lox</p>
+                            <p className="text-lime-600">Founder</p>
+                            <div className="flex items-center ">
+                                <img src={x} alt=""/>
+                                <img src={x} alt=""/>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+
+                <section className="w-full flex justify-center items-center gap-100">
+                    <div className="w-1/4 flex flex-col  justify-center items-start gap-12">
+                        <h2 className="text-amber-50 text-6xl">
+                            <b>
+                                Join our
+
+                            </b>
+                        </h2>
+
+                        <h2 className="text-lime-600 text-6xl">
+                            <b>
+                                Discord
+                            </b>
+                        </h2>
+
+
+
+                        <p className="text-amber-50 ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.                        </p>
+
+                        <button className="bg-lime-500 w-1/2 h-10 text-2xl">Join Discord</button>
+                    </div>
+                    <div>
+                        <img src={fff} alt=""/>
+                    </div>
+                </section>
+
+
+                <footer className="w-full flex justify-center items-center gap-70 bg-purple-900 h-50">
+
+
+                    <div>
+                        <img src={logo} alt=""/>
+                        <p>©2022 All rights reserved</p>
+                    </div>
+                    <div>
+                        <p>Wave NFTs</p>
+                        <p>Stories</p>
+                        <p>Contact</p>
+                    </div>
+                    <div>
+                        <p>Licencing</p>
+                        <p>Style Guide</p>
+                        <p>Changelog</p>
+                    </div>
+                    <div>
+                        <p>Powered by  Webflow</p>
+                        <p>Developed by  Anastasiia G.</p>
+                    </div>
+                    <div className="flex justify-center items-center gap-5">
+                        <img src={x} alt=""/>
+                        <img src={x} alt=""/>
+                        <img src={x} alt=""/>
+                        <img src={x} alt=""/>
+                    </div>
+                </footer>
 
             </div>
         </>
