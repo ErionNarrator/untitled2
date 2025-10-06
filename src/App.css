@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+h2 {
+    font-family: "Audiowide", sans-serif;}
+
+p {
+    font-family: "Audiowide", sans-serif;}
+
+a {
+    font-family: "Audiowide", sans-serif;}
